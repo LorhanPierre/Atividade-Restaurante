@@ -1,0 +1,61 @@
+*{
+
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+header{
+
+    box-shadow: 0px 2px 10px 1px rgba(255, 218, 194, 0.808);
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.logo{
+    display: flex;
+    max-width: 8vw;
+    flex-grow: 2;
+}
+
+.menu_principal{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: baseline;
+    font-size: 20px;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button{
+
+    display:flex;
+    background-color: brown;
+    color:antiquewhite;
+    padding: 15px;
+    border:2px solid;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+
+}
+
+.button:hover{
+
+    color:brown;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border:2px solid;
+    border-color: brown;
+    transition-timing-function: ease;
+
+}
