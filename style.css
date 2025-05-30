@@ -7,8 +7,9 @@
 
 header{
 
-    box-shadow: 0px 2px 10px 1px rgba(255, 218, 194, 0.808);
-
+    box-shadow: 0px 4px 15px 5px rgba(255, 218, 194, 0.508);
+    z-index: 99;
+    position: relative;
 }
 
 .menu{
@@ -22,7 +23,7 @@ header{
 
 .logo{
     display: flex;
-    max-width: 8vw;
+    max-width: 5vw;
     flex-grow: 2;
 }
 
@@ -40,7 +41,7 @@ header{
 
     display:flex;
     background-color: brown;
-    color:antiquewhite;
+    color:rgb(255, 255, 255);
     padding: 15px;
     border:2px solid;
     border-radius: 30px;
@@ -58,4 +59,54 @@ header{
     border-color: brown;
     transition-timing-function: ease;
 
+}
+
+/*Style do banner do site=====================================================================*/
+
+.banner {
+
+    display: flex;
+    position: relative;
+    background-image: url("/imagens/cachorro\ quente\ banner.jpg");
+    background-size: cover;
+    height: 50vw;
+    position: relative;
+
+}
+
+.slogan{
+
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+}
+
+.slogan h1{
+
+    display: flex;
+    font-size: 5.5em;
+    padding-bottom: 30px;
+    flex-direction: column;
+    padding-top: 2em;
+    
+}
+
+.slogan h2{
+
+    display: flex;
+    font-size:3em;
+    padding-bottom: 30px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.opacidade{
+
+    background-color: rgba(0, 0, 0, 0.508);
+    width:100%;
+    background: linear-gradient(90deg,rgba(0, 0, 0, 0.8) 0%, rgba(39, 39, 39, 0.5) 50%, rgba(237, 221, 83, 0) 100%);
 }
