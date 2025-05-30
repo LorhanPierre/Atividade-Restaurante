@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(255, 245, 224);
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.header .logo{
+    max-width: 10vw;
+}
+
+.navegador {
+    justify-content: space-between ;
+    align-content: center;
+
+}
+.menu{
+
+    display:flex;
+
+
+}
+
+.menu_superior{
+
+    display:flex;
+    gap:2vw;
+    align-items: center;
+}
+
+.menu_superior li{
+
+    list-style: none;
+}
+.button{
+
+    background-color: brown;
+    color: aliceblue;
+    padding: 10px 10px;
+    border-radius: 25px;
+}
+
+.menu_superior a {
+    text-decoration: none;
+    color: black;
+}
+
+/*/seja especifico em todo o CSS
+
