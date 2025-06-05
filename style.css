@@ -1,56 +1,112 @@
 *{
+
     padding: 0;
-    margin: 0;
+    margin:0;
     box-sizing: border-box;
 }
 
-.header{
-    display: flex;
-    background-color: rgb(255, 245, 224);
-    justify-content: space-between;
-    padding: 10px;
-    margin-bottom: 10px;
+header{
+
+    box-shadow: 0px 4px 15px 5px rgba(255, 218, 194, 0.508);
+    z-index: 99;
+    position: relative;
 }
 
-.header .logo{
-    max-width: 10vw;
-}
-
-.navegador {
-    justify-content: space-between ;
-    align-content: center;
-
-}
 .menu{
-
-    display:flex;
-
-
-}
-
-.menu_superior{
-
-    display:flex;
-    gap:2vw;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    width: 90%;
+    margin: 0 auto;
+
 }
 
-.menu_superior li{
+.logo{
+    display: flex;
+    max-width: 5vw;
+    flex-grow: 2;
+}
 
+.menu_principal{
+    display: flex;
+    gap: 40px;
     list-style: none;
+    align-items: baseline;
+    font-size: 20px;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .button{
 
+    display:flex;
     background-color: brown;
-    color: aliceblue;
-    padding: 10px 10px;
-    border-radius: 25px;
+    color:rgb(255, 255, 255);
+    padding: 15px;
+    border:2px solid;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+
 }
 
-.menu_superior a {
-    text-decoration: none;
-    color: black;
+.button:hover{
+
+    color:brown;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border:2px solid;
+    border-color: brown;
+    transition-timing-function: ease;
+
 }
 
-/*/seja especifico em todo o CSS
+/*Style do banner do site=====================================================================*/
 
+.banner {
+
+    display: flex;
+    position: relative;
+    background-image: url("/imagens/cachorro\ quente\ banner.jpg");
+    background-size: cover;
+    height: 50vw;
+    position: relative;
+
+}
+
+.slogan{
+
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+}
+
+.slogan h1{
+
+    display: flex;
+    font-size: 5.5em;
+    padding-bottom: 30px;
+    flex-direction: column;
+    padding-top: 2em;
+    
+}
+
+.slogan h2{
+
+    display: flex;
+    font-size:3em;
+    padding-bottom: 30px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.opacidade{
+
+    background-color: rgba(0, 0, 0, 0.508);
+    width:100%;
+    background: linear-gradient(90deg,rgba(0, 0, 0, 0.8) 0%, rgba(39, 39, 39, 0.5) 50%, rgba(237, 221, 83, 0) 100%);
+}
