@@ -26,7 +26,7 @@ header{
 
 .logo{
     display: flex;
-    max-width: 5vw;
+    max-width: 7vw;
     flex-grow: 2;
 }
 
@@ -35,9 +35,29 @@ header{
     gap: 40px;
     list-style: none;
     align-items: baseline;
-    font-size: 20px;
+    font-size: 15px;
     color: brown;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.btmenu{
+
+    padding: 9px;
+    border-radius: 30px;
+    transition-duration: 0.7s;
+    transition-timing-function:ease;
+}
+
+.btmenu:hover{
+
+    padding: 9px;
+    border: 2px;
+    border-color: brown;
+    border-bottom-style: solid;
+    border-radius: 30px;
+    transition-duration: 0.2s;
+    transition-timing-function:ease;
 }
 
 .button{
@@ -75,9 +95,6 @@ header{
     height: 50vw;
     position: relative;
 
-
-
-
 }
 
 .slogan{
@@ -85,6 +102,7 @@ header{
     display: flex;
     width: 90%;
     margin: 0 auto;
+    content: 50%;
     flex-direction: column;
     justify-content: space-around;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -95,10 +113,11 @@ header{
 .slogan h1{
 
     display: flex;
-    font-size: 5.5em;
+    font-size: 5em;
     padding-bottom: 30px;
     flex-direction: column;
-    padding-top: 2em;
+    padding-top: 1.5em;
+
     
 }
 
@@ -110,6 +129,11 @@ header{
     flex-direction: column;
     justify-content: center;
 }
+.slogan p{
+
+    text-align: justify;
+    font-size: 15px;
+}
 
 .opacidade{
 
@@ -117,3 +141,43 @@ header{
     width:100%;
     background: linear-gradient(90deg,rgba(0, 0, 0, 0.8) 0%, rgba(39, 39, 39, 0.5) 50%, rgba(237, 221, 83, 0) 100%);
 }
+
+.buttonBanner{
+
+    display: flex;
+    width: 15vw;
+    padding: 15px;
+    margin-left: 9vw;
+    margin-top: 4em;
+    border:2px solid;
+    border-color: antiquewhite;
+    border-radius: 30px;
+    text-decoration: none;
+    color:antiquewhite;
+    justify-content: center;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+
+}
+
+.buttonBanner:hover{
+
+    width: 15vw;
+    padding: 15px;
+    margin-left: 9vw;
+    margin-top: 4em;
+    border:2px solid;
+    border-color: antiquewhite;
+    border-radius: 30px;
+    text-decoration: none;
+    color:antiquewhite;
+    justify-content: center;
+    transition-timing-function: ease;
+    box-shadow:0px 1px 15px 5px rgba(255, 218, 194, 0.508) ;
+
+}
+
+
+
+
+
