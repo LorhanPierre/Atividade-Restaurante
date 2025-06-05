@@ -14,10 +14,13 @@ header{
 
 .menu{
     display: flex;
+
     justify-content: space-between;
     align-items: center;
     width: 90%;
     margin: 0 auto;
+
+
 
 }
 
@@ -72,6 +75,9 @@ header{
     height: 50vw;
     position: relative;
 
+
+
+
 }
 
 .slogan{
@@ -84,6 +90,7 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: antiquewhite;
 }
+
 
 .slogan h1{
 
