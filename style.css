@@ -177,7 +177,20 @@ header{
 
 }
 
+/*FIM DA PRODUCAO DO BANNER*/
 
+footer{
+    
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+}
 
+.parteD{
 
+    display: flex;
+    border-bottom-style: solid;
+    border: 2px;
+    border-color: antiquewhite;
+}
 
