@@ -180,17 +180,61 @@ header{
 /*FIM DA PRODUCAO DO BANNER*/
 
 footer{
-    
-    background-color: brown;
+
+    color: brown;
+    box-shadow: 0px 4px 15px 5px rgba(255, 218, 194, 0.508);
+}
+ .a img{
+
+    max-width: 5vw;
+    border-radius: 50px;
+ }
+
+ .parteP{
+
+    display: flex;
+    color:color;
+    justify-content: space-around;
+    align-content: baseline;
+    padding:2em;
+ }
+
+ .a{
     display: flex;
     flex-direction: column;
-}
+ }
 
-.parteD{
+ .b{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .c{
+    display: flex;
+    flex-direction: column;
+    gap:5px
+
+ }
+
+ .cA{
+    display: flex;
+    gap:15px;
+ }
+
+ .d{
+    display: flex;
+    flex-direction: column;
+ }
+
+
+.parteS{
 
     display: flex;
-    border-bottom-style: solid;
-    border: 2px;
-    border-color: antiquewhite;
+    padding: 1em;
+    border: 1px;
+    border-color:rgb(168, 88, 88);
+    border-top-style: solid;
+    justify-content: center;
+    color:brown;
 }
 
