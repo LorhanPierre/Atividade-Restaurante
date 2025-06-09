@@ -19,9 +19,6 @@ header{
     align-items: center;
     width: 90%;
     margin: 0 auto;
-
-
-
 }
 
 .logo{
@@ -241,9 +238,17 @@ footer{
 
 /*caracterização da main*/
 
+.prato{
+
+    max-height: 10.7vw;
+}
+
 .PratosDstq{
 
     display:flex;
+    margin-left:px;
+    margin-right: 100px;
+    justify-content: space-around;
 }
 
 .pratos{
@@ -251,7 +256,8 @@ footer{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap:20px;
+    gap:50px;
+    width: 55%;
 }
 
 .destaque{
@@ -260,7 +266,20 @@ footer{
     flex-direction: column;
     align-items: center;
     gap:15px;
-    margin: 65px;
+    margin: 85px;
+}
+
+.destaque h2{
+
+    font-size: 2.5vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.destaque p {
+
+    margin-top: 25px;
+    font-size: 1vw;
+    text-align: center;
 }
 
 .prato1 img{
@@ -275,16 +294,17 @@ footer{
     display: flex;
     flex-direction: column;
     box-shadow: 0px 4px 15px 5px rgba(185, 152, 130, 0.508);
-    width: 25vw;
-    height: 30vw;
+    width: 20vw;
+    height: 25vw;
     border-radius: 35px;
+    font-size: 1vw;
 }
 
 .descricao{
 
     display: flex;
-    margin:20px;
-    gap:50px;
+    margin:30px;
+    gap:px;
     flex-direction: column;
     justify-content: space-between;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -304,3 +324,26 @@ footer{
     color:brown;
 }
 
+/*comentarios*/
+
+.Comentarios{
+
+    background-color: antiquewhite;
+    height: 20vw;
+    margin-top: 5vw;
+}
+
+/*novidades*/
+
+.novidades{
+
+    display:flex;
+    background-color: aliceblue;
+    height: 20vw;
+    margin-top:5vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3vw;
+
+}
