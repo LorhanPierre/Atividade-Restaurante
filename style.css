@@ -246,8 +246,7 @@ footer{
 .PratosDstq{
 
     display:flex;
-    margin-left:px;
-    margin-right: 100px;
+    margin-right: 21vw;
     justify-content: space-around;
 }
 
@@ -256,7 +255,7 @@ footer{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap:50px;
+    gap:40px;
     width: 55%;
 }
 
@@ -328,9 +327,13 @@ footer{
 
 .Comentarios{
 
+    display:flex;
     background-color: antiquewhite;
     height: 20vw;
     margin-top: 5vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /*novidades*/
@@ -340,7 +343,6 @@ footer{
     display:flex;
     background-color: aliceblue;
     height: 20vw;
-    margin-top:5vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
