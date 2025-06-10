@@ -240,13 +240,13 @@ footer{
 
 .prato{
 
-    max-height: 10.7vw;
+    max-height: 13.2vw;
 }
 
 .PratosDstq{
 
     display:flex;
-    margin-right: 21vw;
+    margin-right: 2vw;
     justify-content: space-around;
 }
 
@@ -264,7 +264,7 @@ footer{
     display:flex;
     flex-direction: column;
     align-items: center;
-    gap:15px;
+    gap:3vw;
     margin: 85px;
 }
 
@@ -284,8 +284,8 @@ footer{
 .prato1 img{
     display: flex;
     flex-direction: column;
-    border-top-left-radius:35px ;
-    border-top-right-radius: 35px;
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
 }
 
 .prato1{
@@ -293,9 +293,9 @@ footer{
     display: flex;
     flex-direction: column;
     box-shadow: 0px 4px 15px 5px rgba(185, 152, 130, 0.508);
-    width: 20vw;
-    height: 25vw;
-    border-radius: 35px;
+    width: 25vw;
+    height: 30vw;
+    border-radius: 20px;
     font-size: 1vw;
 }
 
@@ -303,7 +303,7 @@ footer{
 
     display: flex;
     margin:30px;
-    gap:px;
+    gap:4vw;
     flex-direction: column;
     justify-content: space-between;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -348,4 +348,68 @@ footer{
     align-items: center;
     gap:3vw;
 
+}
+
+/* Sidebar */
+
+.video{
+
+    display:flex ;
+    flex-direction: column;
+    gap:1.5vw;
+    margin:1vw;
+    border-radius: 20px;
+    box-shadow: -5px 12px 15px 5px rgba(185, 152, 130, 0.508);
+    width: 31vw;
+    height: 26vw;
+    gap:1vw;
+    margin-top: 5vw;
+}
+
+.video iframe{
+
+    display: flex;
+    align-self: center;
+    border-radius: 20px;
+}
+
+.video h1{
+    margin-top: 1vw;
+    margin-left:1vw;
+    font-size: 1.7vw;
+}
+
+.video p{
+    margin-left:1vw;
+    font-size: 1.2vw;
+}
+
+.horario{
+
+    display:flex ;
+    gap:1.5vw;
+    margin:1vw;
+    border-radius: 20px;
+    box-shadow: -5px 12px 15px 5px rgba(185, 152, 130, 0.508);
+    width: 31vw;
+    height: 15vw;
+    gap:2vw;
+    margin-top: 5vw;
+    font-size: 1.8vw;
+    justify-content: space-around;
+}
+
+.reserva{
+
+    
+    display:flex ;
+    flex-direction: column;
+    gap:1.5vw;
+    margin:1vw;
+    border-radius: 20px;
+    box-shadow: -5px 12px 15px 5px rgba(185, 152, 130, 0.508);
+    width: 31vw;
+    height: 15vw;
+    gap:1vw;
+    margin-top: 5vw;
 }
