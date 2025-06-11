@@ -35,6 +35,7 @@ header{
     font-size: 15px;
     color: brown;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 
@@ -44,7 +45,11 @@ header{
     border-radius: 30px;
     transition-duration: 0.7s;
     transition-timing-function:ease;
+    text-decoration: none;
+    color:brown;
+
 }
+
 
 .btmenu:hover{
 
@@ -207,21 +212,34 @@ footer{
     flex-direction: column;
  }
 
+ .b h3{
+    margin-bottom:0.8vw;
+ }
+
+ .b li{
+    list-style: none;
+    margin-bottom:0.2vw;
+ }
+
  .c{
     display: flex;
     flex-direction: column;
-    gap:5px
+    gap:1vw;
 
  }
 
  .cA{
     display: flex;
-    gap:15px;
+    gap:1.3vw;
  }
 
  .d{
     display: flex;
     flex-direction: column;
+ }
+
+ .d p{
+    margin-bottom:0.8vw;
  }
 
 
@@ -264,20 +282,20 @@ footer{
     display:flex;
     flex-direction: column;
     align-items: center;
-    gap:3vw;
-    margin: 85px;
+    gap:2vw;
+    margin: 3vw;
 }
 
 .destaque h2{
 
-    font-size: 2.5vw;
+    font-size: 3vw;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .destaque p {
 
     margin-top: 25px;
-    font-size: 1vw;
+    font-size: 1.3vw;
     text-align: center;
 }
 
@@ -292,9 +310,9 @@ footer{
 
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 4px 15px 5px rgba(185, 152, 130, 0.508);
+    box-shadow: 0px 4px 15px 2px rgba(185, 152, 130, 0.508);
     width: 25vw;
-    height: 30vw;
+    height: 27vw;
     border-radius: 20px;
     font-size: 1vw;
 }
@@ -303,13 +321,17 @@ footer{
 
     display: flex;
     margin:30px;
-    gap:4vw;
+    gap:2vw;
     flex-direction: column;
     justify-content: space-between;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
+.descricao h2{
+
+    color:brown;
+}
 .ver{
 
     display:flex;
@@ -328,7 +350,6 @@ footer{
 .Comentarios{
 
     display:flex;
-    background-color: antiquewhite;
     height: 20vw;
     margin-top: 5vw;
     flex-direction: column;
@@ -341,7 +362,7 @@ footer{
 .novidades{
 
     display:flex;
-    background-color: aliceblue;
+    background-color:antiquewhite;
     height: 20vw;
     flex-direction: column;
     justify-content: center;
@@ -359,7 +380,7 @@ footer{
     gap:1.5vw;
     margin:1vw;
     border-radius: 20px;
-    box-shadow: -5px 12px 15px 5px rgba(185, 152, 130, 0.508);
+    box-shadow: -5px 12px 15px 1px rgba(185, 152, 130, 0.508);
     width: 31vw;
     height: 26vw;
     gap:1vw;
@@ -371,12 +392,15 @@ footer{
     display: flex;
     align-self: center;
     border-radius: 20px;
+    max-width: 29vw;
+    max-height: 29vh;
 }
 
 .video h1{
     margin-top: 1vw;
     margin-left:1vw;
     font-size: 1.7vw;
+    color: brown;
 }
 
 .video p{
@@ -387,29 +411,84 @@ footer{
 .horario{
 
     display:flex ;
+    flex-direction: column;
     gap:1.5vw;
-    margin:1vw;
+    margin:1.5vw;
     border-radius: 20px;
-    box-shadow: -5px 12px 15px 5px rgba(185, 152, 130, 0.508);
+    box-shadow: -5px 12px 15px 1px rgba(185, 152, 130, 0.508);
     width: 31vw;
-    height: 15vw;
-    gap:2vw;
+    height: 13vw;
+    gap:1vw;
     margin-top: 5vw;
-    font-size: 1.8vw;
+    font-size: 1.25vw;
     justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.horario h1{
+
+    margin-top: 2vw;
+    color: brown;
+}
+
+.horas{
+
+    margin-top:1vw;
+    display:flex;
+    gap: 5vw;
 }
 
 .reserva{
-
-    
+ 
     display:flex ;
     flex-direction: column;
     gap:1.5vw;
     margin:1vw;
     border-radius: 20px;
-    box-shadow: -5px 12px 15px 5px rgba(185, 152, 130, 0.508);
     width: 31vw;
-    height: 15vw;
+    height: 60vw;
     gap:1vw;
     margin-top: 5vw;
+}
+
+.reserva h3{
+
+    margin-top:2vw;
+    margin-left: 1vw;
+    color: brown;
+    font-size: 2vw;
+}
+
+.form-reserva{
+
+    display: flex;
+    flex-direction: column;
+    height: 50vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.form-reserva label{
+
+    margin-top: 1.8vw;
+    font-size:1.2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-reserva input{
+
+    border-radius: 8px;
+    border-style: solid;
+    border-color:rgb(211, 185, 151);
+    height: 3vw;
+    margin-top: 1vw;
+    padding:1vw ;
+    font-size: 1.3vw;
+}
+
+.form-reserva .observacoes{
+
+    height: 7.1vw;
 }
